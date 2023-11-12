@@ -25,7 +25,7 @@ int main() {
 
     cout << "Enter the number to be searched: ";
     cin >> num;
-    cout << num << " " << (list1.search(num)? "found": "is not" ) << " in the list" << endl;
+    cout << num << " " << (list1.search(num)? "found": "not" ) << " in the list" << endl;
 
     cout << "Enter the number to be deleted: ";
     cin >> num;
